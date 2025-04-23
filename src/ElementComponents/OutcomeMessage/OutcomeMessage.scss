@@ -1,0 +1,47 @@
+@import "../../../src/sassGlobalFiles/config.scss";
+
+.hidden {
+  display: none;
+}
+
+.outcomeMessage {
+  @extend %totalPageComponentHeightWidth;
+  @extend %displayFlexRowCenter;
+  border-radius: $standardBorderRadius;
+  box-shadow: $orangeBoxShadow;
+  background-color: $greenBackground;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  background-color: darkorange;
+}
+
+.container {
+  @extend %errorMessageDimentions;
+  @extend %displayFlexColumnCenter-spaceEvenly;
+}
+
+.text {
+  font-family: $standardFont;
+  font-size: 3rem;
+  color: white;
+}
+
+.playButton button {
+  background-color: none;
+  border: none;
+  background-color: darkorange;
+  border: $standardBorder;
+  border-radius: $standardBorderRadius;
+  height: 3rem;
+  width: 8rem;
+  transition: all 0.3s;
+  font-family: $secondaryFont;
+  font-size: 1.05rem;
+}
+
+.playButton button:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}

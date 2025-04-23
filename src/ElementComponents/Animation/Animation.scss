@@ -1,0 +1,10 @@
+@import "../../../src/sassGlobalFiles/config.scss";
+
+.imageContainer {
+  height: 60%;
+  width: 30%;
+}
+
+.image {
+  @extend %hundredByHundred;
+}

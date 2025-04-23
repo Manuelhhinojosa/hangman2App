@@ -1,0 +1,39 @@
+.KBContainer {
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.15rem;
+  border: none;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  cursor: help;
+}
+
+.button.active {
+  color: black;
+}
+
+.active2 {
+  background-color: greenyellow;
+  cursor: not-allowed;
+}
+
+.button.inactive {
+  background-color: red;
+  cursor: not-allowed;
+  color: white;
+}
+
+.button:hover:not(:disabled) {
+  background-color: greenyellow;
+}/*# sourceMappingURL=Keyboard.css.map */

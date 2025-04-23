@@ -1,0 +1,11 @@
+@import "../src/sassGlobalFiles/config.scss";
+
+body {
+  margin: $noMargin;
+  background-color: $bodyBackgroundColor;
+}
+
+#root {
+  @extend %totalHeightWidth;
+  @extend %displayFlexColumCenter;
+}

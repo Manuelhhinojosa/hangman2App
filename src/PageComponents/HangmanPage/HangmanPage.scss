@@ -1,0 +1,43 @@
+@import "../../sassGlobalFiles/config.scss";
+
+.hangmanPage {
+  @extend %totalPageComponentHeightWidth;
+  box-shadow: $standardBoxShadow;
+  border-radius: $standardBorderRadius;
+}
+
+.mainConatiner {
+  @extend %hundredByHundred;
+  @extend %displayFlexRowCenter;
+}
+
+.leftContainer {
+  height: 100%;
+  flex: 1;
+}
+
+.animationContainer {
+  height: 70%;
+  width: 100%;
+  @extend %displayFlexRowCenter;
+}
+
+.wordToGuessContainer {
+  height: 30%;
+  width: 100%;
+  @extend %displayFlexRowCenter;
+}
+
+.writeContainer {
+  height: 100%;
+  flex: 1;
+  @extend %displayFlexRowCenter;
+}
+
+.keyboardContainer {
+  height: 70%;
+  width: 90%;
+  @extend %displayFlexRowCenter;
+  box-shadow: $standardBoxShadow;
+  border-radius: $standardBorderRadius;
+}

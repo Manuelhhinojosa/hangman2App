@@ -1,0 +1,16 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: Column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,41 @@
+@import "../../sassGlobalFiles/config.scss";
+
+.KBContainer {
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.15rem;
+  border: none;
+  box-shadow: $standardBoxShadow;
+  border-radius: $standardBorderRadius;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  cursor: help;
+}
+
+.button.active {
+  color: black;
+}
+
+.active2 {
+  background-color: $greenBackground;
+  cursor: not-allowed;
+}
+
+.button.inactive {
+  background-color: red;
+  cursor: not-allowed;
+  color: white;
+}
+
+.button:hover:not(:disabled) {
+  background-color: $greenBackground;
+}

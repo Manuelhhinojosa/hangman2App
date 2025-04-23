@@ -1,0 +1,17 @@
+@import "../../sassGlobalFiles/config.scss";
+
+.errorPage {
+  @extend %totalPageComponentHeightWidth;
+  @extend %dispalyFlexRowCenter;
+  box-shadow: $greenBoxShadow;
+  border-radius: $standardBorderRadius;
+  font-family: $standardFont;
+  font-size: 3rem;
+  color: $erroMessageColor;
+}
+
+@media screen and (max-width: 700px) {
+  .errorPage {
+    font-size: 2rem;
+  }
+}

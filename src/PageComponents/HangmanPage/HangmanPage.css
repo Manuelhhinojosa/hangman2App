@@ -1,0 +1,48 @@
+.mainConatiner {
+  height: 100%;
+  width: 100%;
+}
+
+.hangmanPage {
+  height: 95vh;
+  width: 95vw;
+}
+
+.keyboardContainer, .writeContainer, .wordToGuessContainer, .animationContainer, .mainConatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hangmanPage {
+  box-shadow: inset 0 0 5px black;
+  border-radius: 1rem;
+}
+
+.leftContainer {
+  height: 100%;
+  flex: 1;
+}
+
+.animationContainer {
+  height: 70%;
+  width: 100%;
+}
+
+.wordToGuessContainer {
+  height: 30%;
+  width: 100%;
+}
+
+.writeContainer {
+  height: 100%;
+  flex: 1;
+}
+
+.keyboardContainer {
+  height: 70%;
+  width: 90%;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 1rem;
+}/*# sourceMappingURL=HangmanPage.css.map */
