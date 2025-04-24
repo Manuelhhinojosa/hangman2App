@@ -1,23 +1,20 @@
----
-PROJECT: Hangman
----
+🎮 **Hangman 2**
 
-### Quik Intro :
+A modernized version of the classic Hangman game, reimagined with React and TypeScript for a more dynamic experience. Can you guess the word before the hangman is completed?
 
-Classic hangman game
+📝 **About the Project**
 
----
+This is an upgraded Hangman game that makes use of React for rendering and Typescript for enhanced functionality and type safety. With a smooth and modern user interface, it keeps the classic gameplay intact while adding some new twists. Play, guess, and have fun!
 
-### Technologies Used :
+⚙️ **Technologies & Libraries Used**
 
-- React
-- Typescript
+- React.js
+- React Router v6
+- TypeScript
 - SASS
 - HTML
-- React Router V6
 
----
+🔗 **GitHub Repository**: [Hangman 2 GitHub](https://github.com/Manuelhhinojosa/hangman2App)  
+🌐 **Live Demo**: [Hangman 2 App](https://hangmanmhh.vercel.app)
 
-### [link](https://cool-gaufre-f11c28.netlify.app) to the view the app
-
----
+Made with ❤️ by [Manuel H Hinojosa](https://manuelhinojosa.netlify.app).
